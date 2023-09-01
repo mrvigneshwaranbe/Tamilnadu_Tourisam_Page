@@ -1,0 +1,71 @@
+.sub-bar{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:space-evenly;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+.sub-bar .col-2{
+    background: transparent;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px;
+}
+.sub-bar .col-2:hover {
+    
+    background-color: #f0f0f0; 
+    color: #333; 
+}
+.sub-bar a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.section-1 h1 {
+    margin-top: 50px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+}
+.card h2{
+    color: green;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 3rem;
+  height: 50px;
+  border-radius: 100%;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.carousel-control-next-icon{
+    margin-right: -260px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.carousel-control-prev-icon{
+    margin-left: -260px;
+
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+/* .carousel-control-next-icon:hover,
+.carousel-control-prev-icon:hover {
+    background-color: #333;
+    color: #fff;
+} */
+h3 {
+    margin-top: 50px;
+    font-size: 24px; 
+    color: #333; 
+    /* font-weight: bold;  */
+    text-align: left;
+}
+
+
+  
