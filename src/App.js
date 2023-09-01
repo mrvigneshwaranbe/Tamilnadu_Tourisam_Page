@@ -7,6 +7,7 @@ import PlaceToVisit from "./components/places/PlaceToVisit";
 import TimeToVisit from "./components/timeToVisit/places/TimeToVisit";
 import Home from "./components/Home";
 import Food from "./components/Food/Food";
+import Package from "./components/TourPackage/Package";
 const App = () => {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/place-to-visit" element={<PlaceToVisit />} />
         <Route path="/timeToVisit" element={<TimeToVisit />} />
         <Route path="/Food" element={<Food />} />
+        <Route path="/Package" element={<Package />} />
       </Routes>
     </BrowserRouter>
   );
