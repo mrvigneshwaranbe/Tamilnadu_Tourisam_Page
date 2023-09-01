@@ -16,7 +16,7 @@ function Rameshwaram() {
         </Col>
 
         <Col className="mt-5">
-          <h6 className="fw-bolder">""The Bridge on the Indian Ocean""</h6>
+          <h6 className="fw-bolder">"The Bridge on the Indian Ocean"</h6>
           <div className="text-container text-container1">
             <p className="text-indent text-secondary">
               Rameshwaram is located on a beautiful island in the South Indian
