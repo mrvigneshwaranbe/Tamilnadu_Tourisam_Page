@@ -36,7 +36,7 @@ const Navbar = () => {
               <Link className="nav-link text-light" to={"/timeToVisit"}>Best Time To Visit</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light">Packages</Link>
+              <Link className="nav-link text-light" to={"/Package"}>Packages</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link text-light">Destination</Link>
